@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Bienvenido a MotoYa!</title>
+</head>
+<body class="body bienvenida">
+  <header class="header bienvenida-header">
+    <span class="span status-hora">9:41</span>
+    <nav class="nav bienvenida-nav">
+      <a class="link btn-atras" href="index.html">←</a>
+      <div class="div bienvenida-titulos">
+        <h1 class="h1 bienvenida-titulo">Bienvenido a MotoYa!</h1>
+        <p class="p bienvenida-subtitulo">Tu ciudad, a una entrega de distancia</p>
+      </div>
+      <button class="button btn-ayuda" type="button">?</button>
+    </nav>
+  </header>
+
+  <main class="main bienvenida-main">
+    <section class="section bienvenida-marca">
+      <img class="img marca-logo" src="logo.png" alt="Logo de MotoYa">
+      <span class="span marca-nombre">MotoYa!</span>
+    </section>
+
+    <section class="section bienvenida-intro">
+      <h2 class="h2 intro-titulo">Lo que necesitas, justo a tiempo.</h2>
+      <p class="p intro-texto">Envíos y mensajería en moto. Ágiles, seguros y siempre cerca.</p>
+    </section>
+
+    <section class="section bienvenida-ilustracion">
+      <span class="span ilustracion-etiqueta">EN MOVIMIENTO</span>
+      <img class="img ilustracion-img" src="ilustracion.png" alt="Ilustración de moto en movimiento">
+    </section>
+
+    <section class="section bienvenida-roles">
+      <h2 class="h2 roles-titulo">¿Cómo quieres usar MotoYa!?</h2>
+
+      <label class="label rol rol-cliente">
+        <span class="span rol-icono"></span>
+        <span class="span rol-textos">
+          <strong class="strong rol-nombre">Cliente</strong>
+          <small class="small rol-descripcion">Solicita y sigue tus envíos</small>
+        </span>
+        <input class="input rol-radio" type="radio" name="rol" value="cliente" checked>
+      </label>
+
+      <label class="label rol rol-repartidor">
+        <span class="span rol-icono"></span>
+        <span class="span rol-textos">
+          <strong class="strong rol-nombre">Repartidor</strong>
+          <small class="small rol-descripcion">Reparte y genera ganancias</small>
+        </span>
+        <input class="input rol-radio" type="radio" name="rol" value="repartidor">
+      </label>
+
+      <label class="label rol rol-administrador">
+        <span class="span rol-icono"></span>
+        <span class="span rol-textos">
+          <strong class="strong rol-nombre">Administrador</strong>
+          <small class="small rol-descripcion">Gestiona la operación</small>
+        </span>
+        <input class="input rol-radio" type="radio" name="rol" value="administrador">
+      </label>
+    </section>
+
+    <a class="link btn-continuar" href="bienvenido.html">Continuar como cliente</a>
+  </main>
+
+  <footer class="footer bienvenida-footer">
+    <p class="p footer-texto">Al continuar aceptas los Términos de uso y el Aviso de privacidad de MotoYa!.</p>
+  </footer>
+</body>
+</html>
