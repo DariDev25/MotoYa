@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Mi perfil</title>
+</head>
+<body class="body perfil">
+  <header class="header perfil-header">
+    <img class="img header-logo" src="logo.png" alt="Logo de MotoYa">
+    <div class="div perfil-titulos">
+      <h1 class="h1 perfil-titulo">Mi perfil</h1>
+      <p class="p perfil-subtitulo">Tu cuenta y tus preferencias</p>
+    </div>
+    <button class="button btn-notificaciones" type="button"></button>
+  </header>
+
+  <main class="main perfil-main">
+    <section class="section perfil-datos">
+      <span class="span perfil-iniciales">AM</span>
+      <div class="div perfil-info">
+        <strong class="strong perfil-nombre">Ana Martínez</strong>
+        <p class="p perfil-correo">ana.martinez@gmail.com</p>
+        <p class="p perfil-telefono">+52 55 1234 5678</p>
+      </div>
+      <a class="link perfil-editar" href="#">Editar datos personales →</a>
+    </section>
+
+    <section class="section perfil-direcciones">
+      <div class="div seccion-cabecera">
+        <h2 class="h2 seccion-titulo">Direcciones guardadas</h2>
+        <a class="link seccion-accion" href="#">+ Añadir</a>
+      </div>
+
+      <a class="link direccion-item" href="#">
+        <span class="span direccion-icono"></span>
+        <div class="div direccion-textos">
+          <strong class="strong direccion-nombre">Casa</strong>
+          <p class="p direccion-detalle">Villa olga, Av. 27 de febrero</p>
+        </div>
+        <span class="span direccion-flecha"></span>
+      </a>
+
+      <a class="link direccion-item" href="#">
+        <span class="span direccion-icono"></span>
+        <div class="div direccion-textos">
+          <strong class="strong direccion-nombre">Trabajo</strong>
+          <p class="p direccion-detalle">Gurabo,C.10</p>
+        </div>
+        <span class="span direccion-flecha"></span>
+      </a>
+    </section>
+
+    <section class="section perfil-preferencias">
+      <h2 class="h2 seccion-titulo">Preferencias</h2>
+
+      <label class="label preferencia-item">
+        <span class="span preferencia-texto">Notificaciones de pedidos</span>
+        <input class="input preferencia-switch" type="checkbox" name="notificaciones" checked>
+      </label>
+
+      <label class="label preferencia-item">
+        <span class="span preferencia-texto">Promociones y novedades</span>
+        <input class="input preferencia-switch" type="checkbox" name="promociones">
+      </label>
+
+      <a class="link preferencia-pago" href="#"> Métodos de pago · Visa 4242 </a>
+    </section>
+
+    <a class="link btn-principal" href="bienvenido.html">Cerrar sesión</a>
+  </main>
+
+  <footer class="footer perfil-footer">
+    <p class="p footer-texto">MotoYa! · Privacidad y términos</p>
+    <nav class="nav menu">
+      <a class="link menu-item" href="pedidos.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Inicio</span>
+      </a>
+      <a class="link menu-item" href="mis-pedidos.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Pedidos</span>
+      </a>
+      <a class="link menu-item" href="ayuda.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Ayuda</span>
+      </a>
+      <a class="link menu-item menu-activo" href="perfil.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Perfil</span>
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
