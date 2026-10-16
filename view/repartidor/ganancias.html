@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motoya!R3 · Mis ganancias</title>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/global.css">
+</head>
+<body>
+
+  <main class="pantalla">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+      <img class="encabezado__logo" src="../../assets/img/Logo-Motoya.png" alt="Logo de Motoya">
+
+      <div class="encabezado__texto">
+        <h1 class="saludo">Mis ganancias</h1>
+        <p class="subtitulo">Cada entrega cuenta</p>
+      </div>
+
+      <button class="boton-notificaciones" type="button" aria-label="Notificaciones">
+        <img src="../../assets/img/icono-campana.png" alt="icono de campana">
+        
+      </button>
+    </header>
+
+    <!-- SELECTOR DE PERIODO -->
+    <div class="selector-periodo" role="tablist" aria-label="Periodo">
+      <button class="periodo periodo--activo" type="button" role="tab" aria-selected="true">Hoy</button>
+      <button class="periodo" type="button" role="tab" aria-selected="false">Semana</button>
+      <button class="periodo" type="button" role="tab" aria-selected="false">Mes</button>
+    </div>
+
+    <!-- RESUMEN DE GANANCIA -->
+    <section class="tarjeta-ganancia">
+      <p class="tarjeta-ganancia__etiqueta">Ganancia neta · 31 oct</p>
+      <p class="tarjeta-ganancia__monto">$420.00 DOP</p>
+      <p class="tarjeta-ganancia__resumen">7 entregas · 28.4 km · 3 h 20 min</p>
+
+      <!-- Gráfica de barras -->
+      <div class="grafica" aria-hidden="true">
+        <span class="barra barra--1"></span>
+        <span class="barra barra--2"></span>
+        <span class="barra barra--3"></span>
+        <span class="barra barra--4"></span>
+        <span class="barra barra--5"></span>
+        <span class="barra barra--6"></span>
+        <span class="barra barra--7"></span>
+      </div>
+    </section>
+
+    <!-- PRÓXIMO PAGO -->
+    <a class="proximo-pago" href="#">
+      <svg class="proximo-pago__icono" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 9l9-6 9 6z"/>
+        <path d="M5 12v6M9.5 12v6M14.5 12v6M19 12v6M3 21h18"/>
+      </svg>
+
+      <div class="proximo-pago__texto">
+        <p class="proximo-pago__titulo">Próximo pago: $1,860.00</p>
+        <p class="proximo-pago__detalle">Viernes 16 oct · BBVA ···· 0812</p>
+      </div>
+
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M9 6l6 6-6 6"/>
+      </svg>
+    </a>
+
+    <!-- HISTORIAL DE ENTREGAS -->
+    <section class="historial">
+      <div class="historial__cabecera">
+        <h2 class="historial__titulo">Historial de entregas</h2>
+        <a class="historial__enlace" href="#">Ver las 7</a>
+      </div>
+
+      <ul class="lista-historial">
+        <li class="tarjeta-historial">
+          <div>
+            <p class="tarjeta-historial__titulo">#MR-2018· Jardines → Juán</p>
+            <p class="tarjeta-historial__detalle">Hoy 10:18 · Entregado</p>
+          </div>
+          <p class="tarjeta-historial__monto">$63.00</p>
+        </li>
+
+        <li class="tarjeta-historial">
+          <div>
+            <p class="tarjeta-historial__titulo">#MR-2020 · Centro → EDE.</p>
+            <p class="tarjeta-historial__detalle">Hoy 09:46 · Entregado</p>
+          </div>
+          <p class="tarjeta-historial__monto">$58.00</p>
+        </li>
+
+        <li class="tarjeta-historial">
+          <div>
+            <p class="tarjeta-historial__titulo">#MR-2021 · APT. → Escandón</p>
+            <p class="tarjeta-historial__detalle">Hoy 09:12 · Entregado</p>
+          </div>
+          <p class="tarjeta-historial__monto">$60.00</p>
+        </li>
+      </ul>
+    </section>
+
+    <p class="aviso-seguridad">MR-2022 en curso · Se suma al confirmar entrega.</p>
+
+    <!-- NAVEGACIÓN INFERIOR -->
+    <nav class="navegacion-inferior" aria-label="Navegación principal">
+      <a class="enlace-nav" href="index.html">
+        <img src="../../assets/img/icono-casa.png" alt="icono de casa" class="inicio">
+        <span>Inicio</span>
+      </a>
+
+      <a class="enlace-nav" href="entrega.html">
+        <img src="../../assets/img/icono-entrega.png" alt="icono de entrega" class="entrega">
+        <span>Entregas</span>
+      </a>
+
+      <a class="enlace-nav enlace-nav--activo" href="ganancias.html">
+        <img src="../../assets/img/icono-cartera.png" alt="icono de cartera" class="ganancias">
+        <span>Ganancias</span>
+      </a>
+
+      <a class="enlace-nav" href="perfil.html">
+        <img src="../../assets/img/icono-perfil.png" alt="icono de perfil" class="perfil">
+        <span>Perfil</span>
+      </a>
+    </nav>
+
+  </main>
+
+</body>
+</html>
