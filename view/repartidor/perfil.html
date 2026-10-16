@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motoya!R3 · Mi perfil</title>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/global.css">
+</head>
+<body>
+
+  <main class="pantalla">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+      <img class="encabezado__logo" src="../../assets/img/Logo-Motoya.png" alt="Logo de Motoya">
+
+      <div class="encabezado__texto">
+        <h1 class="saludo">Mi perfil</h1>
+        <p class="subtitulo">Tu cuenta y tus preferencias</p>
+      </div>
+
+      <button class="boton-notificaciones" type="button" aria-label="Notificaciones">
+        <img src="../../assets/img/icono-campana.png" alt="icono de campana">
+        
+      </button>
+    </header>
+
+    <!-- TARJETA DE PERFIL -->
+    <section class="tarjeta-perfil">
+      <div class="tarjeta-perfil__datos">
+        <div class="tarjeta-perfil__avatar" aria-hidden="true">DR</div>
+
+        <div>
+          <h2 class="tarjeta-perfil__nombre">Diego Ramírez</h2>
+          <p class="tarjeta-perfil__rol">Repartidor · Villa Olga</p>
+          <p class="tarjeta-perfil__contacto">Correo electrónico · Teléfono</p>
+        </div>
+      </div>
+
+      <div class="tarjeta-perfil__pie">
+        <a class="enlace-editar" href="#">Editar datos personales →</a>
+        <span class="insignia-valoracion">★ 4.9</span>
+      </div>
+    </section>
+
+    <!-- MI CUENTA DE REPARTIDOR -->
+    <h2 class="titulo-seccion">Mi cuenta de repartidor</h2>
+
+    <section class="tarjeta-opciones">
+      <a class="opcion" href="#">
+        <svg class="opcion__icono" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="5.5" cy="17" r="3"/>
+          <circle cx="18.5" cy="17" r="3"/>
+          <path d="M8.5 17h4l3-6h3M12.5 17l-2.5-6H7M15.5 11L14 7h3"/>
+        </svg>
+        <div class="opcion__texto">
+          <p class="opcion__titulo">Mi motocicleta</p>
+          <p class="opcion__detalle">Añadir marca, modelo y placas</p>
+        </div>
+        <svg class="opcion__flecha" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 6l6 6-6 6"/>
+        </svg>
+      </a>
+
+      <a class="opcion" href="#">
+        <svg class="opcion__icono" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>
+          <path d="M8.5 12l2.5 2.5 4.5-5"/>
+        </svg>
+        <div class="opcion__texto">
+          <p class="opcion__titulo">Documentación y verificación</p>
+          <p class="opcion__detalle">Identificación, licencia y seguro · Ver estado</p>
+        </div>
+        <svg class="opcion__flecha" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 6l6 6-6 6"/>
+        </svg>
+      </a>
+
+      <a class="opcion" href="#">
+        <svg class="opcion__icono" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 9l9-6 9 6z"/>
+          <path d="M5 12v6M9.5 12v6M14.5 12v6M19 12v6M3 21h18"/>
+        </svg>
+        <div class="opcion__texto">
+          <p class="opcion__titulo">Cuenta para recibir pagos</p>
+          <p class="opcion__detalle">BBVA ···· 0812 · Administrar cuenta</p>
+        </div>
+        <svg class="opcion__flecha" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 6l6 6-6 6"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- PREFERENCIAS -->
+    <h2 class="titulo-seccion">Preferencias</h2>
+
+    <section class="tarjeta-opciones tarjeta-preferencias">
+      <div class="fila-preferencia">
+        <span class="fila-preferencia__nombre">Notificaciones de entregas</span>
+        <label class="interruptor interruptor--claro">
+          <input class="interruptor__entrada" type="checkbox" checked>
+          <span class="interruptor__control"></span>
+          <span class="solo-lectores">Notificaciones de entregas</span>
+        </label>
+      </div>
+
+      <div class="fila-preferencia">
+        <span class="fila-preferencia__nombre">Promociones y novedades</span>
+        <label class="interruptor interruptor--claro">
+          <input class="interruptor__entrada" type="checkbox">
+          <span class="interruptor__control"></span>
+          <span class="solo-lectores">Promociones y novedades</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- AYUDA -->
+    <section class="tarjeta-opciones">
+      <a class="opcion opcion--sencilla" href="#">
+        <svg class="opcion__icono" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12a8 8 0 0 1-11.7 7L4 20l1.2-4.3A8 8 0 1 1 21 12z"/>
+        </svg>
+        <div class="opcion__texto">
+          <p class="opcion__titulo">Ayuda y soporte</p>
+        </div>
+        <svg class="opcion__flecha" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 6l6 6-6 6"/>
+        </svg>
+      </a>
+    </section>
+
+    <button class="boton-principal boton-principal--sesion" type="button">Cerrar sesión</button>
+
+    <p class="aviso-seguridad">MotoYa! · <a class="aviso-seguridad__enlace" href="#">Privacidad y términos</a></p>
+
+    <!-- NAVEGACIÓN INFERIOR -->
+    <nav class="navegacion-inferior" aria-label="Navegación principal">
+      <a class="enlace-nav " href="index.html">
+        <img src="../../assets/img/icono-casa.png" alt="icono de casa" class="inicio">
+        <span>Inicio</span>
+      </a>
+
+      <a class="enlace-nav" href="entrega.html">
+        <img src="../../assets/img/icono-entrega.png" alt="icono de entrega" class="entrega">
+        <span>Entregas</span>
+      </a>
+
+      <a class="enlace-nav" href="ganancias.html">
+        <img src="../../assets/img/icono-cartera.png" alt="icono de cartera" class="ganancias">
+        <span>Ganancias</span>
+      </a>
+
+      <a class="enlace-nav enlace-nav--activo" href="perfil.html">
+        <img src="../../assets/img/icono-perfil.png" alt="icono de perfil" class="perfil">
+        <span>Perfil</span>
+      </a>
+    </nav>
+
+  </main>
+
+</body>
+</html>
