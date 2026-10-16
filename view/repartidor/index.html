@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motoya!R3 · Inicio del repartidor</title>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/global.css">
+</head>
+<body>
+
+  <main class="pantalla">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+      <img class="encabezado__logo" src="../../assets/img/Logo-Motoya.png" alt="Logo de Motoya">
+
+      <div class="encabezado__texto">
+        <h1 class="saludo">Buen día, <span class="saludo__nombre">Diego</span></h1>
+        <p class="ubicacion">Villa Olga · Listo para salir</p>
+      </div>
+
+      <button class="boton-notificaciones" type="button" aria-label="Notificaciones">
+        <img src="../../assets/img/icono-campana.png" alt="icono de campana">
+      </button>
+    </header>
+
+    <!-- ESTADO DE DISPONIBILIDAD -->
+    <section class="estado-disponible">
+      <div>
+        <h2 class="estado-disponible__titulo">Estás disponible</h2>
+        <p class="estado-disponible__texto">Recibiendo solicitudes cercanas</p>
+      </div>
+
+      <label class="interruptor">
+        <input class="interruptor__entrada" type="checkbox" checked>
+        <span class="interruptor__control"></span>
+        <span class="solo-lectores">Cambiar disponibilidad</span>
+      </label>
+    </section>
+
+    <!-- ESTADÍSTICAS DEL DÍA -->
+    <section class="estadisticas">
+      <article class="tarjeta-estadistica">
+        <p class="tarjeta-estadistica__valor">7</p>
+        <p class="tarjeta-estadistica__nombre">Entregas hoy</p>
+      </article>
+
+      <article class="tarjeta-estadistica">
+        <p class="tarjeta-estadistica__valor">$420</p>
+        <p class="tarjeta-estadistica__nombre">Ganado hoy</p>
+      </article>
+
+      <article class="tarjeta-estadistica">
+        <p class="tarjeta-estadistica__valor">4.9</p>
+        <p class="tarjeta-estadistica__nombre">Tu valoración</p>
+      </article>
+    </section>
+
+    <!-- MAPA -->
+    <section class="mapa" aria-label="Mapa de la ruta">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d120364.63991812432!2d-70.85807200273439!3d19.481634600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8eb1c5dd46d87a93%3A0x3b2fac12854855!2sInfotep%20-%20Instituto%20Nacional%20de%20Formacion%20Tecnico%20Profesional%2C%20Av.%20Salvador%20Estrella%20Sadhal%C3%A1%20123%2C%20Santiago%20de%20los%20Caballeros%2051000%2C%20Dominican%20Republic!3m2!1d19.4816346!2d-70.7056367!5e0!3m2!1sen!2suk!4v1792105160455!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      
+    </section>
+
+    <!-- SOLICITUDES CERCANAS -->
+    <section class="solicitudes">
+      <div class="solicitudes__cabecera">
+        <h2 class="solicitudes__titulo">Solicitudes cercanas</h2>
+        <span class="solicitudes__contador">1 nueva</span>
+      </div>
+
+      <article class="tarjeta-solicitud">
+        <div class="tarjeta-solicitud__superior">
+          <p class="tarjeta-solicitud__precio">$63.00DOP</p>
+          <span class="insignia-nueva">Nueva · 00:45</span>
+        </div>
+
+        <p class="tarjeta-solicitud__detalle">#MR-2022 · Documentos · 0.5 kg</p>
+
+        <div class="tarjeta-solicitud__ruta">
+          
+          <p>
+            Papelería Roma → Villa Olga, Av. 27 de febrero<br>
+            3.8 km · 18 min · A 0.6 km de ti
+          </p>
+        </div>
+
+        <button class="boton-principal" type="button">Ver solicitud</button>
+      </article>
+    </section>
+
+    <p class="aviso-seguridad">Conduce con cuidado. Tu seguridad va primero.</p>
+
+    <!-- NAVEGACIÓN INFERIOR -->
+    <nav class="navegacion-inferior" aria-label="Navegación principal">
+      <a class="enlace-nav enlace-nav--activo" href="index.html">
+        <img src="../../assets/img/icono-casa.png" alt="icono de casa" class="inicio">
+        <span>Inicio</span>
+      </a>
+
+      <a class="enlace-nav" href="entrega.html">
+        <img src="../../assets/img/icono-entrega.png" alt="icono de entrega" class="entrega">
+        <span>Entregas</span>
+      </a>
+
+      <a class="enlace-nav" href="ganancias.html">
+        <img src="../../assets/img/icono-cartera.png" alt="icono de cartera" class="ganancias">
+        <span>Ganancias</span>
+      </a>
+
+      <a class="enlace-nav" href="perfil.html">
+        <img src="../../assets/img/icono-perfil.png" alt="icono de perfil" class="perfil">
+        <span>Perfil</span>
+      </a>
+    </nav>
+
+  </main>
+
+</body>
+</html>
