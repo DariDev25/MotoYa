@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motoya!R3 · Entrega en curso</title>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/global.css">
+</head>
+<body>
+
+  <main class="pantalla">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+      <img class="encabezado__logo" src="../../assets/img/Logo-Motoya.png" alt="Logo de Motoya">
+
+      <div class="encabezado__texto">
+        <h1 class="saludo">Entrega en curso</h1>
+        <p class="subtitulo">#MR-2022 · Ganancia neta $63.00</p>
+      </div>
+
+      <button class="boton-notificaciones" type="button" aria-label="Notificaciones">
+        <img src="../../assets/img/icono-campana.png" alt="icono de campana">
+        
+      </button>
+    </header>
+
+    <!-- MAPA -->
+    <section class="mapa mapa--entrega" aria-label="Mapa de la entrega">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d120364.63991812432!2d-70.85807200273439!3d19.481634600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8eb1c5dd46d87a93%3A0x3b2fac12854855!2sInfotep%20-%20Instituto%20Nacional%20de%20Formacion%20Tecnico%20Profesional%2C%20Av.%20Salvador%20Estrella%20Sadhal%C3%A1%20123%2C%20Santiago%20de%20los%20Caballeros%2051000%2C%20Dominican%20Republic!3m2!1d19.4816346!2d-70.7056367!5e0!3m2!1sen!2suk!4v1792105160455!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      
+    </section>
+
+    <!-- ESTADO DEL VIAJE -->
+    <div class="estado-viaje">
+      <span class="estado-viaje__etiqueta">En camino al destino</span>
+      <span class="estado-viaje__llegada">Llegada 11:00</span>
+    </div>
+
+    <!-- TARJETA DE RECOGIDA -->
+    <section class="tarjeta-recogida">
+      <div class="tarjeta-recogida__lugar">
+        <svg class="icono-check" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M8 12.5l3 3 5-6"/>
+        </svg>
+        <div>
+          <h2 class="tarjeta-recogida__titulo">Papelería Roma</h2>
+          <p class="tarjeta-recogida__direccion">Villa Olga,Av. 27 de febrero</p>
+        </div>
+      </div>
+
+      <button class="boton-principal boton-principal--compacto" type="button">
+        ✓ Confirmar recogida · Hecho 10:42
+      </button>
+    </section>
+
+    <!-- TARJETA DE ENTREGA -->
+    <section class="tarjeta-entrega">
+      <div class="tarjeta-entrega__cliente">
+        <svg class="icono-ubicacion" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/>
+          <circle cx="12" cy="9.5" r="2.5"/>
+        </svg>
+        <div>
+          <h2 class="tarjeta-entrega__nombre">Ana Martínez · Entrega</h2>
+          <p class="tarjeta-entrega__direccion">Gurabo, C.10</p>
+          <p class="tarjeta-entrega__telefono">Llamar · <a href="tel:+525512345678">+52 55 1234 5678</a></p>
+        </div>
+      </div>
+
+      <p class="tarjeta-entrega__nota">Sobre con documentos · 0.5 kg Entregar en recepción. Preguntar por Ana.</p>
+
+      <button class="boton-secundario" type="button">Abrir navegación</button>
+    </section>
+
+    <button class="boton-principal boton-principal--entrega" type="button">Confirmar entrega</button>
+
+    <p class="aviso-seguridad">Solicita el código de recepción al llegar. · <a class="aviso-seguridad__enlace" href="#">Ayuda</a></p>
+
+    <!-- NAVEGACIÓN INFERIOR -->
+    <nav class="navegacion-inferior" aria-label="Navegación principal">
+      <a class="enlace-nav" href="index.html">
+        <img src="../../assets/img/icono-casa.png" alt="icono de casa" class="inicio">
+        <span>Inicio</span>
+      </a>
+
+      <a class="enlace-nav enlace-nav--activo" href="entrega.html">
+        <img src="../../assets/img/icono-entrega.png" alt="icono de entrega" class="entrega">
+        <span>Entregas</span>
+      </a>
+
+      <a class="enlace-nav" href="ganancias.html">
+        <img src="../../assets/img/icono-cartera.png" alt="icono de cartera" class="ganancias">
+        <span>Ganancias</span>
+      </a>
+
+      <a class="enlace-nav" href="perfil.html">
+        <img src="../../assets/img/icono-perfil.png" alt="icono de perfil" class="perfil">
+        <span>Perfil</span>
+      </a>
+    </nav>
+
+  </main>
+
+</body>
+</html>
