@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de pedidos · MotoYa! Administración</title>
+</head>
+<body>
+
+
+<aside>
+  <p><a href="#"><strong>MotoYa!</strong></a></p>
+  <p>Centro de operaciones</p>
+
+  <nav >
+    <ul>
+      <li><a href="#">Resumen</a></li>
+      <li><a href="#">Pedidos</a></li>
+      <li><a href="#">Usuarios</a></li>
+      <li><a href="#">Reportes</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Santiago, RD</h2>
+    <p>Villa olga · Gurabo</p>
+    <p>Operación activa</p>
+  </section>
+
+  <nav >
+    <ul>
+      <li><a href="#">Configuración</a></li>
+    </ul>
+  </nav>
+
+  <p>Motoya Administración · Acceso seguro</p>
+</aside>
+
+<div>
+  <header>
+    <nav>
+      <ol>
+        <li><a href="#">Administración</a></li>
+        <li >Pedidos</li>
+      </ol>
+    </nav>
+    <p>Sistema en línea</p>
+    <button type="button"></button>
+    <p>Laura Torres · Admin</p>
+    <p >LT</p>
+  </header>
+
+  <main>
+    <header>
+      <div>
+        <h1>Gestión de pedidos</h1>
+        <p>Supervisa cada envío y asigna al repartidor adecuado.</p>
+      </div>
+      <button type="button"><time datetime="2026-10-31">31 oct 2026</time> </button>
+    </header>
+
+    <form action="#" role="search">
+      <div>
+        <label for="buscar">Buscar pedido o cliente</label>
+        <div>
+          <img src="" alt="icono de búsqueda">
+          <input type="search" id="buscar" placeholder="Buscar por ID, nombre o dirección...">
+        </div>
+      </div>
+      <div>
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+          <option selected>Todos los estados</option>
+          <option>En camino</option>
+          <option>Pendiente</option>
+          <option>En recogida</option>
+          <option>Entregado</option>
+        </select>
+      </div>
+      <div>
+        <label for="zona">Zona</label>
+        <select id="zona" name="zona">
+          <option selected>Todas las zonas</option>
+          <option>Villa olga</option>
+          <option>Gurabo</option>
+        </select>
+      </div>
+      <button type="button">Exportar CSV</button>
+    </form>
+
+    <p ><strong>2 pedidos pendientes de asignación · MR-2027 lleva 3 min en espera.</strong> <a href="#">Ver pendientes →</a></p>
+
+    <div>
+      <section >
+        <h2 >Lista de pedidos</h2>
+        <div >
+          <button type="button">Todos · 248</button>
+          <button type="button">Activos · 32</button>
+          <button type="button">Pendientes · 2</button>
+        </div>
+
+        <table>
+          <caption>Pedidos del día</caption>
+          <thead>
+            <tr>
+              <th scope="col">Pedido / hora</th>
+              <th scope="col">Cliente</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Repartidor</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+      <tr aria-selected="true">
+        <th scope="row"><strong>#MR-2026</strong><br><time>10:35</time></th><td>Ana Martínez</td><td>En camino</td><td>Diego Ramírez</td><td>$79.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2025</strong><br><time>10:49</time></th><td>Carlos Mendoza</td><td>Pendiente</td><td><a href="#">Asignar</a></td><td>$95.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2024</strong><br><time>10:32</time></th><td>Lucía Pérez</td><td>En recogida</td><td>Sofía Luna</td><td>$112.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2023</strong><br><time>10:05</time></th><td>Marcos Díaz</td><td>Entregado</td><td>Diego Ramírez</td><td>$79.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2022</strong><br><time>10:15</time></th><td>Valeria Ruiz</td><td>Entregado</td><td>José Herrera</td><td>$89.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2021</strong><br><time>10:12</time></th><td>Pedro Castro</td><td>Entregado</td><td>Luis García</td><td>$76.00</td>
+      </tr>
+      <tr>
+        <th scope="row"><strong>#MR-2020</strong><br><time>09:30</time></th><td>Elena Vargas</td><td>Entregado</td><td>Diego Ramírez</td><td>$74.00</td>
+      </tr>
+          </tbody>
+        </table>
+
+        <footer>
+          <p>Mostrando 1–7 de 248 pedidos</p>
+          <nav >
+            <ul>
+              <li><a href="#" >‹</a></li>
+              <li><a href="#" >1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li>…</li>
+              <li><a href="#">36</a></li>
+              <li><a href="#">›</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </section>
+
+      <aside >
+        <header>
+          <h2>#MR-2022</h2>
+          <p>En camino</p>
+        </header>
+        <p><time datetime="2026-10-31">31 oct 2026</time> · Creado <time>10:35</time> · Llegada <time>11:00</time></p>
+
+        <ol>
+          <li>
+            
+            <p>Recogida</p>
+            <p><strong>Papelería Gurabo</strong></p>
+            <p>C.10, Gurabo</p>
+          </li>
+          <li>
+            
+            <p>Entrega</p>
+            <p><strong>Ana Martínez</strong></p>
+            <p>Av. 27 de febrero, Villa olga</p>
+          </li>
+        </ol>
+
+        <p>Documentos · 0.5 kg Entregar en recepción. Preguntar por Ana.</p>
+
+        <dl>
+          <dt>Pago del cliente</dt>
+          <dd><strong>$79.00 · Visa 4242</strong></dd>
+          <dt>Ganancia del repartidor</dt>
+          <dd><strong>$63.00 RD</strong></dd>
+        </dl>
+
+        <section>
+          <h3 >Asignación</h3>
+          <div>
+            <p>DR</p>
+            <div>
+              <p><strong>Diego Ramírez</strong></p>
+              <p> 4.9 · Honda Cargo · 4K2-X9</p>
+            </div>
+            <a href="tel:+18090000000"></a>
+          </div>
+
+          <label for="repartidor">Repartidor asignado</label>
+          <select id="repartidor" name="repartidor">
+            <option selected>Diego Ramírez</option>
+            <option>Sofía Luna</option>
+            <option>José Herrera</option>
+            <option>Luis García</option>
+          </select>
+
+          <button type="button">Cambiar asignación</button>
+        </section>
+
+        <p>Última actualización <time>10:52</time>. La recogida fue confirmada a las <time>10:42</time>.</p>
+      </aside>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
