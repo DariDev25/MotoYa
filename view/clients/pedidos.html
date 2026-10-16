@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Inicio</title>
+</head>
+<body class="body inicio">
+  <header class="header inicio-header">
+    <span class="span status-hora">10:35</span>
+    <div class="div inicio-saludo">
+      <img class="img saludo-icono" src="logo.png" alt="Logo de MotoYa">
+      <div class="div saludo-textos">
+        <h1 class="h1 saludo-nombre">Hola, Ana</h1>
+        <p class="p saludo-ubicacion">Santiago de los Caballeros ·RD</p>
+      </div>
+      <button class="button btn-notificaciones" type="button"></button>
+    </div>
+  </header>
+
+  <main class="main inicio-main">
+    <section class="section inicio-intro">
+      <h2 class="h2 intro-titulo">¿Qué enviamos hoy?</h2>
+      <p class="p intro-texto">De puerta a puerta, sin complicaciones.</p>
+    </section>
+
+    <section class="section inicio-mapa">
+      <span class="span mapa-distancia">3.8 km · 18 min</span>
+      <img class="img mapa-img" src="mapa.png" alt="Mapa de la ruta">
+      <span class="span mapa-punto mapa-origen">Villa Olga, Av. 27 de febrero</span>
+      <span class="span mapa-punto mapa-destino">Gurabo, C.10</span>
+    </section>
+
+    <section class="section inicio-direcciones">
+      <div class="div direccion direccion-recogida">
+        <label class="label direccion-label" for="recogida">Punto de recogida</label>
+        <input class="input direccion-input" type="text" id="recogida" name="recogida" value="Villa Olga, Av. 27 de febrero">
+      </div>
+
+      <div class="div direccion direccion-destino">
+        <label class="label direccion-label" for="destino">¿A dónde lo llevamos?</label>
+        <input class="input direccion-input" type="text" id="destino" name="destino" value="Gurabo, C.10">
+      </div>
+
+      <div class="div inicio-tarifa">
+        <span class="span tarifa-tipo">Moto · Hasta 5 kg</span>
+        <span class="span tarifa-precio">Desde $79 DOP</span>
+      </div>
+
+      <a class="link btn-principal" href="detalle.html">Solicitar envío →</a>
+      <a class="link inicio-guardada" href="perfil.html"> Usar una dirección guardada</a>
+    </section>
+  </main>
+
+  <footer class="footer inicio-footer">
+    <nav class="nav menu">
+      <a class="link menu-item menu-activo" href="pedidos.html">
+        <span class="span menu-icono">⌂</span>
+        <span class="span menu-texto">Inicio</span>
+      </a>
+      <a class="link menu-item" href="mis-pedidos.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Pedidos</span>
+      </a>
+      <a class="link menu-item" href="ayuda.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Ayuda</span>
+      </a>
+      <a class="link menu-item" href="perfil.html">
+        <span class="span menu-icono"></span>
+        <span class="span menu-texto">Perfil</span>
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
