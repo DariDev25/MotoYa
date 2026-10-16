@@ -1,69 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reportes</title>
-  </head>
-  <body>
-    <!-- Encabezado de la pagina -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reportes de ingresos y entregas · MotoYa! Administración</title>
+</head>
+<body>
+
+
+<aside>
+  <p><a href="#"><img src="" alt="Logo de MotoYa!"><strong>MotoYa!</strong></a></p>
+  <p>Centro de operaciones</p>
+
+  <nav>
+    <ul>
+      <li><a href="#"><span>Resumen</span></a></li>
+      <li><a href="#"><span>Pedidos</span></a></li>
+      <li><a href="#"><span>Usuarios</span></a></li>
+      <li><a href="#" ><span>Reportes</span></a></li>
+    </ul>
+  </nav>
+
+  <section >
+    <h2>Santiago, RD</h2>
+    <p>Villa olga · Gurabo</p>
+    <p>Operación activa</p>
+  </section>
+
+  <nav >
+    <ul>
+      <li><a href="#"><span>Configuración</span></a></li>
+    </ul>
+  </nav>
+
+  <p>Motoya Administración · Acceso seguro</p>
+</aside>
+
+<div>
+  <header>
+    <nav >
+      <ul>
+        <li><a href="#">Administración / Reportes</a></li>
+        
+      </ul>
+    </nav>
+    <p>Sistema en línea</p>
+    <button type="button" ></button>
+    <p>Laura Torres · Admin</p>
+    <p >LT</p>
+  </header>
+
+  <main>
     <header>
-      <h1>Reporte de ingresos</h1>
-      <button><img src="" alt="icono de campana" /></button>
+      <div>
+        <h1>Reportes de ingresos y entregas</h1>
+        <p>Del 13 al 31 de octubre de 2026 · El día de hoy incluye datos hasta las <time>10:52</time>.</p>
+      </div>
+      <button type="button"><time datetime="2026-10-31">31 oct 2026</time></button>
     </header>
-    <!-- Contenido principal de la pagina -->
-    <main>
-        <!-- Filtro de ingresos -->
-      <section>
-        <label for="">Filtrar por:</label>
-        <select name="" id="">
-            <option value="">Esta semana</option>
-            <option value="">Este mes</option>
-            <option value="">Mes pasado</option>
-            <option value="">Este año</option>
-        </select>
+
+    <div>
+      <div>
+        <button type="button">Últimos 7 días </button>
+        <button type="button">Todas las zonas </button>
+        <p>Moneda: peso dominicano (RD)</p>
+      </div>
+      <button type="button"> Descargar reporte</button>
+    </div>
+
+    <section >
+      <article>
+        <h2>Ingresos brutos</h2>
+        <p><strong>$109,490</strong></p>
+        <p>+14.8% vs. semana anterior</p>
+      </article>
+      <article>
+        <h2>Ingresos Motoya</h2>
+        <p><strong>$21,898</strong></p>
+        <p>Comisiones netas de operación</p>
+      </article>
+      <article>
+        <h2>Entregas completadas</h2>
+        <p><strong>1,368</strong></p>
+        <p>+11.3% vs. semana anterior</p>
+      </article>
+      <article>
+        <h2>Entregas a tiempo</h2>
+        <p><strong>96.8%</strong></p>
+        <p>1,324 dentro de la estimación</p>
+      </article>
+    </section>
+
+    <div>
+      <section >
+        <header>
+          <h2>Ingresos brutos por día</h2>
+          <p>RD</p>
+        </header>
+        
+        <p>31 oct: $19,840 RD · El mejor resultado del período</p>
       </section>
-      <!-- Seccion de ingresos totales -->
-      <section>
-        <div>
-            <h2>Ingresos totales</h2>
-            <span>RD$ 245,600.00</span>
-            
-            <!-- sub-bloque -->
-            <div>
-                <!-- sub-tarjeta efectivo -->
-                <div>
-                    <h3>Efectivo</h3>
-                    <span>RD$ 150,800.00</span>
-                </div>
-                 <!-- sub-tarjeta tarjeta/online -->
-                <div>
-                    <h3>Tarjeta/Online</h3>
-                    <span>RD$ 94,800.00</span>
-                </div>
-            </div>        
-        </div>
-        <!-- Contenedor del grafico -->
-        <div>
-            <h2>Resumen diario</h2>
-            <!-- Grafico de ingresos -->
-             <div>
-                <img src="" alt="grafico de ingresos" />
-             </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-        <!-- Barra de navegación inferior -->
-      <nav>
+
+      <section >
+        <h2>Puntualidad</h2>
+        
         <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Pedidos</a></li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Reportes</a></li>
-          <li><a href="#">Ajustes</a></li>
+          <li>A tiempo · 1,324</li>
+          <li>Con demora · 44</li>
         </ul>
-      </nav>
-    </footer>
-  </body>
+        <p>Tiempo medio por entrega: 22 min</p>
+      </section>
+    </div>
+
+    <section >
+      <header>
+        <h2 >Detalle del periodo</h2>
+        <p>7 días</p>
+      </header>
+      <table>
+        <caption>Detalle diario del periodo</caption>
+        <thead>
+          <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Entregas</th>
+            <th scope="col">Ingresos brutos</th>
+            <th scope="col">Ingresos Motoya</th>
+            <th scope="col">A tiempo</th>
+            <th scope="col">Tiempo medio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr >
+            <th scope="row"><time datetime="2026-10-19">19 oct 2026</time></th><td>214</td><td>$19,840.00</td><td>$3,968.00</td><td>96.8%</td><td>21 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-18">18 oct 2026</time></th><td>221</td><td>$17,650.00</td><td>$3,530.00</td><td>97.3%</td><td>20 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-17">17 oct 2026</time></th><td>206</td><td>$16,480.00</td><td>$3,296.00</td><td>96.6%</td><td>24 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-16">16 oct 2026</time></th><td>195</td><td>$15,560.00</td><td>$3,112.00</td><td>95.9%</td><td>25 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-15">15 oct 2026</time></th><td>170</td><td>$13,040.00</td><td>$2,608.00</td><td>97.1%</td><td>21 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-14">14 oct 2026</time></th><td>182</td><td>$14,120.00</td><td>$2,824.00</td><td>96.7%</td><td>22 min</td>
+          </tr>
+          <tr>
+            <th scope="row"><time datetime="2026-10-13">13 oct 2026</time></th><td>180</td><td>$12,800.00</td><td>$2,560.00</td><td>97.2%</td><td>21 min</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Los ingresos brutos incluyen todos los pedidos confirmados. Las entregas cuentan únicamente pedidos finalizados.</p>
+    </section>
+  </main>
+</div>
+
+</body>
 </html>
