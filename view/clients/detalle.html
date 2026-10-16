@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Detalles del envío</title>
+</head>
+<body class="body detalle">
+  <header class="header detalle-header">
+    <span class="span status-hora">10:35</span>
+    <nav class="nav detalle-nav">
+      <a class="link btn-atras" href="pedidos.html">←</a>
+      <div class="div detalle-titulos">
+        <h1 class="h1 detalle-titulo">Detalles del envío</h1>
+        <p class="p detalle-subtitulo">Paso 1 de 2 · Personaliza tu entrega</p>
+      </div>
+      <button class="button btn-ayuda" type="button"></button>
+    </nav>
+  </header>
+
+  <main class="main detalle-main">
+    <form class="form detalle-form">
+      <fieldset class="fieldset detalle-envio">
+        <legend class="legend seccion-titulo">¿Qué vas a enviar?</legend>
+        <div class="div envio-tipos">
+          <button class="button tipo tipo-activo" type="button">Documentos</button>
+          <button class="button tipo" type="button">Paquete</button>
+          <button class="button tipo" type="button">Otro</button>
+        </div>
+
+        <label class="label campo-label" for="contenido">Descripción del contenido</label>
+        <input class="input campo-input" type="text" id="contenido" name="contenido" value="Sobre con documentos · 0.5 kg">
+      </fieldset>
+
+      <fieldset class="fieldset detalle-receptor">
+        <legend class="legend seccion-titulo">¿Quién recibe?</legend>
+
+        <label class="label campo-label" for="nombre">Nombre completo</label>
+        <input class="input campo-input" type="text" id="nombre" name="nombre" value="Ana Martínez">
+
+        <label class="label campo-label" for="telefono">Teléfono del destinatario</label>
+        <input class="input campo-input" type="tel" id="telefono" name="telefono" value="+52 55 1234 5678">
+
+        <label class="label campo-label" for="instrucciones">Instrucciones para el repartidor</label>
+        <input class="input campo-input" type="text" id="instrucciones" name="instrucciones" value="Entregar en recepción. Preguntar por Ana.">
+      </fieldset>
+
+      <section class="section detalle-resumen">
+        <div class="div resumen-cabecera">
+          <h2 class="h2 resumen-titulo">Entrega inmediata</h2>
+          <span class="span resumen-etiqueta">Moto</span>
+        </div>
+        <div class="div resumen-fila">
+          <span class="span resumen-label">Distancia · duración</span>
+          <span class="span resumen-valor">3.8 km · 18 min</span>
+        </div>
+        <div class="div resumen-fila">
+          <span class="span resumen-label">Precio estimado</span>
+          <span class="span resumen-valor">$79.00 DOP</span>
+        </div>
+      </section>
+
+      <a class="link btn-principal" href="confirmar-pedido.html">Continuar al resumen</a>
+    </form>
+  </main>
+
+  <footer class="footer detalle-footer">
+    <p class="p footer-texto">Sin artículos frágiles, peligrosos o de valor.</p>
+  </footer>
+</body>
+</html>

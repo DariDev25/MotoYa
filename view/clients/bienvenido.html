@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" class="html">
+<head class="head">
+  <meta class="meta" charset="UTF-8">
+  <meta class="meta" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Iniciar sesión</title>
+</head>
+<body class="body login">
+  <header class="header login-header">
+    <span class="span status-hora">9:41</span>
+    <nav class="nav login-nav">
+      <a class="link btn-atras" href="guia-informativa.html">←</a>
+      <div class="div login-titulos">
+        <h1 class="h1 login-titulo">Iniciar sesión</h1>
+        <p class="p login-subtitulo">Qué bueno tenerte de vuelta</p>
+      </div>
+      <button class="button btn-ayuda" type="button">?</button>
+    </nav>
+  </header>
+
+  <main class="main login-main">
+    <section class="section login-marca">
+      <img class="img marca-logo" src="logo.png" alt="Logo de MotoYa">
+      <span class="span marca-nombre">MotoYa!</span>
+    </section>
+
+    <section class="section login-intro">
+      <h2 class="h2 intro-titulo">Tu próxima entrega empieza aquí.</h2>
+      <p class="p intro-texto">Ingresa a tu cuenta para moverte con MotoYa!.</p>
+    </section>
+
+    <form class="form login-form">
+      <div class="div login-tabs">
+        <button class="button tab tab-activo" type="button">Cliente</button>
+        <button class="button tab" type="button">Repartidor</button>
+        <button class="button tab" type="button">Admin</button>
+      </div>
+
+      <div class="div campo campo-correo">
+        <label class="label campo-label" for="correo">Correo electrónico</label>
+        <input class="input campo-input" type="email" id="correo" name="correo" value="ana.martinez@gmail.com">
+      </div>
+
+      <div class="div campo campo-password">
+        <label class="label campo-label" for="password">Contraseña</label>
+        <input class="input campo-input" type="password" id="password" name="password" value="123456789012">
+      </div>
+
+      <a class="link login-olvido" href="#">¿Olvidaste tu contraseña?</a>
+
+      <a class="link btn-principal" href="pedidos.html">Iniciar sesión</a>
+    </form>
+
+    <section class="section login-registro">
+      <p class="p registro-texto">¿Aún no tienes cuenta?</p>
+      <a class="link btn-secundario" href="crea-tu-cuenta.html">Crear cuenta</a>
+    </section>
+  </main>
+
+  <footer class="footer login-footer">
+    <p class="p footer-texto"> Tus datos viajan seguros con nosotros</p>
+  </footer>
+</body>
+</html>
