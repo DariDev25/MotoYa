@@ -120,3 +120,49 @@ https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=383-305&t=
 *Enlace*:
 https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=362-1863&t=yfqhY9mX0mEi1GvO-4
 
+
+*******************************
+Mockup/admin:
+
+*Nombre*: Resumen operativo
+*ID*: 13
+*Tamaño*: 1360 x 1067 
+*Accion principal*: Mostrar resumen de operativos, envios, entregas...
+*Ruta HTML*: "view\admin\resumen-operativo.html"
+*Imagen*:
+![alt text](image-14.png)
+*Enlace*:
+https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=362-3026&t=cezzk1HCklmrxp4w-4
+
+
+*Nombre*: Gestión de pedidos
+*ID*: 14
+*Tamaño*: 1360 x 991 
+*Accion principal*: Gestionar los pedidos
+*Ruta HTML*: "view\admin\gestion-pedidos.html"
+*Imagen*:
+![alt text](image-15.png)
+*Enlace*:
+https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=362-2841&t=cezzk1HCklmrxp4w-4
+
+
+*Nombre*: Usuarios y repartidores
+*ID*: 15
+*Tamaño*: 1360 x 1155 
+*Accion principal*: gestionar usuarios, repartidores y clientes
+*Ruta HTML*: "view\admin\usuarios-repartidores.html"
+*Imagen*:
+![alt text](image-12.png)
+*Enlace*:
+https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=362-2653&t=cezzk1HCklmrxp4w-4
+
+
+*Nombre*: Observar los ingresos, entregas completadas y a tiempo
+*ID*: 16
+*Tamaño*: 1360 x 1291 
+*Accion principal*: Registrarse como usuario en la app
+*Ruta HTML*: "view\admin\reportes.html"
+*Imagen*:
+![alt text](image.png)
+*Enlace*:
+https://www.figma.com/design/Tk1cb6MQQsDdMOV6BCJTEo/Motoya-R3?node-id=362-2469&t=cezzk1HCklmrxp4w-4
